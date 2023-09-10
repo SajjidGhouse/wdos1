@@ -323,8 +323,6 @@ header label{
     background-color: rgb(114, 56, 56);
     color: white;
     text-align: center;
-    padding: 20px;
-    margin-top: 10%;
  }
     footer p{
         margin: 0;
@@ -343,5 +341,5 @@ header label{
 .footer{
     display: flex;
     justify-content: space-evenly;
-    margin: 5%;
+    
 }
