@@ -48,11 +48,11 @@ header nav ul li{
 header nav ul li a{
     font-size: 18px;
     font-weight: 500;
-    color: #000;
+    color: #ffffff;
     display: block;
 }
 header nav ul li a:hover{
-    color: rgb(204, 204, 11);
+    color: rgb(0, 0, 0);
     border-top: #000 3px solid;  
 }
 
@@ -299,7 +299,7 @@ form{
     position: relative;
     margin:  5% 25%;
     text-align: center;
-    background-color: rgba(95, 158, 160, 0.612);
+    background-color:rgb(216,113,64);
 }
 form h1{
     text-align: center;
@@ -320,9 +320,12 @@ header label{
     display: none;
  }
  footer{
-    background-color: rgb(114, 56, 56);
+    background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
+    padding: 20px;
+    margin-top: 5%;
+    height: 150px;
  }
     footer p{
         margin: 0;
@@ -341,5 +344,5 @@ header label{
 .footer{
     display: flex;
     justify-content: space-evenly;
-    
+    margin: 5%;
 }
