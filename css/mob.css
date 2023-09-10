@@ -1,0 +1,98 @@
+@media screen and (max-width: 700px) {
+    header{
+        padding: 20px;
+
+    }
+    header label{
+        display: initial;
+        position: relative;
+    }
+    header nav{
+        position: absolute;
+        top: 30%; left: 0; right: 0;
+        background: rgb(234, 241, 234);
+        border-top: 1px solid black;
+        display: none;
+        margin: 0;
+    }
+    Header nav ul li{
+        width: 100%;
+    }
+    header #menu:checked ~ nav{
+        display: block;
+    }
+    #content{
+        display: initial;
+    }
+    .cont_1, .cont_2, .cont_3, .cont_4{
+        width: 100%;
+        
+        padding: 0;
+        position: relative;
+        
+    }
+    .txt_cont{
+        position: relative;
+        top: 50%;
+        left: 0;
+        transform: translate(0,0);
+    }
+    /*branches */
+    .ahangala, .ella, .habarana{
+        display:inline-block;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 30px;
+        justify-content: none;
+    }
+    .ahangala img, .ella img, .habarana img{
+        width: 80%;
+        height: 100%;
+    }
+    .ahangala-text, .ella-text, .habarana-text{
+        margin: auto;
+        text-align: center;
+    }
+    iframe{
+        width: 80%;
+        height: 100%;
+    }
+    .Adventure{
+        display: block;
+    }
+    .Adventure img{
+        width: 100%;
+        height: 100%;
+    }
+    .res_1{
+        display: block;
+    }
+    .res_1 img{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    .main_img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .sec_2{
+        position: relative;
+        display: block;
+        
+    }
+    .in, .out{
+        width: 100%;
+        padding:0;
+        margin: auto;
+    }
+    form{
+        margin: auto;
+    }
+    .footer{
+        display: block;
+    }
+}

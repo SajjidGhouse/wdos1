@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mob.css">
+    <title>Home Page</title>
+</head>
+<body id="book">
+    <header>
+        <a href="index.html"><img src="images/logo.png" alt="logo" class="logo"></a>
+        <input type="checkbox" id="menu">
+            <label for="menu">Menu</label>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="branches.html">Branches</a></li>
+                <li><a href="Adven.html">Adventure</a></li>
+                <li><a href="res.html">Resturants</a></li>
+                <li><a href="wedd.html">Wedding</a></li>
+                <li><a href="party.html">Party</a>
+                <li><a href="booking.html">Booking</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form>
+        <fieldset>
+            <h1>Choice of Rooms</h1>
+            <div class="Room_selction">
+                <div class="s_room">
+            <label for="single">Single Room</label>
+            <input type="number" name="single" id="single" min="1" max="10">
+                </div>
+                <div class="d_room">
+            <label for="double">Double Room</label>
+            <input type="number" name="double" id="double" min="1" max="10">
+                </div>
+                <div class="t_room">
+                    <label for="triple">Triple Room</label>
+                    <input type="number" name="triple" id="triple" min="1" max="10">
+            </div>
+            </div>
+            <h1>Guest Count</h1>
+            <div class="guest_count">
+                <div class="adult">
+                    <label for="adult">Adults</label>
+                    <input type="number" name="adult" id="adult" min="1" max="10">
+                </div>
+                <div class="child">
+                    <label for="child">Children</label>
+                    <input type="number" name="child" id="child" min="1" max="10">
+                </div>
+            </div>
+            <h1>Check In</h1>
+            <div class="check_in">
+                <div class="check_in_date">
+                    <label for="check_in_date">Date</label>
+                    <input type="date" name="check_in_date" id="check_in_date">
+                </div>
+                <div class="check_in_time">
+                    <label for="check_in_time">Time</label>
+                    <input type="time" name="check_in_time" id="check_in_time">
+                </div>
+            </div>
+            <h1>Check Out</h1>
+            <div class="check_out">
+                <div class="check_out_date">
+                    <label for="check_out_date">Date</label>
+                    <input type="date" name="check_out_date" id="check_out_date">
+                </div>
+                <div class="check_out_time">
+                    <label for="check_out_time">Time</label>
+                    <input type="time" name="check_out_time" id="check_out_time">
+                </div>
+            </div>
+            <h1>Extra Requirments</h1>
+            <input type="checkbox" name="wi-fi" id="wi-fi">
+            <label for="wi-fi">Wi-Fi</label><br>
+            <label for="view">Room view</label>
+                <select id="view">
+                    <option value="" disabled selected>Choose View</option>
+                    <option value="pool">pool View</option>
+                    <option value="Garden">Garden View</option>
+                </select><br>
+                <button type="button">Book Now</button>
+                </fieldset> 
+            <fieldset>
+            <h1>Adventure</h1>
+            <div class="adv">
+                <input type="checkbox" name="adv" id="ele-bath">
+                <label for="adv">Elephant Bathing</label><br>
+                <input type="checkbox" name="adv" id="whale-watch">
+                <label for="adv">Whale Watching</label><br>
+                <input type="checkbox" name="adv" id="tea">
+                <label for="adv">Tea Factory</label><br>
+                <button type="button">Book Adventure</button>
+
+            </div>
+        </fieldset>
+    </form>
+    
+</body>
+<footer>
+    <div class="footer">
+        <div class="footer_1">
+            <h2>CONTACT US</h2>
+            <p>Hotel Tour,
+            Colombo 07,
+            Sri Lanka.</p>
+            <p>Phone: +94 11 234 5678</p>
+            <p>Fax: +94 11 234 5678</p>
+            <p>Email:CB012343@students.apiit.lk</p>
+        </div>
+        <div class="footer_2">
+            <h2>Discover More</h2>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="branches.html">BRANCHES</a></li>
+                <li><a href="Adven.html">ADVENTURE</a></li>
+                <li><a href="res.html">RESTAURENTS</a></li>
+                <li><a href="wedd.html">WEDDING</a></li>
+                <li><a href="party.html">PARTY</a>
+                <li><a href="booking.html">BOOKING</a></li>
+            </ul>
+        </div>
+</footer>
+</html>
