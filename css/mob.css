@@ -14,10 +14,14 @@
         border-top: 1px solid black;
         display: none;
         margin: 0;
+        
     }
     Header nav ul li{
         width: 100%;
     }
+    header nav ul li a{
+    color: black;
+ }
     header #menu:checked ~ nav{
         display: block;
     }
@@ -39,7 +43,8 @@
     }
     /*branches */
     .ahangala, .ella, .habarana{
-        display:inline-block;
+        display: block;
+        position: static;
         margin: 0;
         padding: 0;
         text-align: center;
@@ -61,6 +66,7 @@
     }
     .Adventure{
         display: block;
+        position: static;
     }
     .Adventure img{
         width: 100%;
